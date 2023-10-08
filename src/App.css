@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 135vh;
+  background-color: #f5f5f5;
+}
+
+.Card {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.Name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.Image:hover {
+  transform: scale(1.1);
+}
+
+.Description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: 100px;
+}
+
+.Price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
